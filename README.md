@@ -37,3 +37,4 @@ http://pypyrev.com/demo/ForwardToThePast/?exchange=binance&symbol=BTC%2FUSDT&int
 * показывать цену графически (как в TradingView)
 * сделать SPA, серверная часть будет предоставлять только API
 * написать тесты
+* поддержка интервала 1 неделя
