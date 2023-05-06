@@ -29,3 +29,9 @@ npm start
 
 Ссылка для людей, не знающих, что вводить в поле "BASE/QUOTE" (символ):
 http://pypyrev.com/demo/ForwardToThePast/?exchange=binance&symbol=BTC%2FUSDT&interval=1m&date=2021-11-10&time=14%3A16&show=1
+
+# Возможные улучшения
+
+* показывать цену графически (как в TradingView)
+* сделать SPA, серверная часть будет предоставлять только API
+* написать тесты
