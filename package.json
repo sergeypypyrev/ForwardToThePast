@@ -1,0 +1,34 @@
+{
+	"name": "forwardtothepast",
+	"version": "1.0.0",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "tsc && copyup src/view/*.jsx build",
+		"start": "node build/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sergeypypyrev/ForwardToThePast.git"
+	},
+	"bugs": {
+		"url": "https://github.com/sergeypypyrev/ForwardToThePast/issues"
+	},
+	"homepage": "https://github.com/sergeypypyrev/ForwardToThePast#readme",
+	"dependencies": {
+		"@babel/preset-env": "^7.21.5",
+		"@babel/preset-react": "^7.18.6",
+		"@babel/register": "^7.21.0",
+		"@hapi/hapi": "^21.3.2",
+		"@hapi/vision": "^7.0.1",
+		"ccxt": "^3.0.92",
+		"hapi-react-views": "^11.0.0",
+		"sequelize": "^6.31.1",
+		"sqlite3": "^5.1.6"
+	},
+	"devDependencies": {
+		"@tsconfig/node16": "^1.0.3",
+		"@types/node": "^18.16.3",
+		"copyfiles": "^2.4.1",
+		"typescript": "^5.0.4"
+	}
+}
