@@ -22,3 +22,10 @@ npm start
 ```
 
 Приложение будет доступно по адресу http://localhost:3010
+
+# Демо
+
+Рабочее демо запущено на http://pypyrev.com/demo/ForwardToThePast/
+
+Ссылка для людей, не знающих, что вводить в поле "BASE/QUOTE" (символ):
+http://pypyrev.com/demo/ForwardToThePast/?exchange=binance&symbol=BTC%2FUSDT&interval=1m&date=2021-11-10&time=14%3A16&show=1

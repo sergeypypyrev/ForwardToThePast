@@ -69,8 +69,13 @@ module.exports = {
 			limit -= before.length + after.length;
 			if (limit) {
 				let params: any = {};
-				if (context.exchange === 'bybit')
-					params.endTime = end - after.length * interval;
+				switch (context.exchange) {
+					case 'bybit':
+					case 'mexc':
+					case 'mexc3':
+						params.endTime = end - (after.length - 1) * interval;
+						break;
+				}
 				let ohlcv = await exchange.fetchOHLCV(context.symbol, context.interval, start + before.length * interval, limit, params);
 				context.ohlcv.push(...ohlcv);
 				cache.save({
