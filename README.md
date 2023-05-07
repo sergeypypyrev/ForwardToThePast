@@ -38,3 +38,4 @@ http://pypyrev.com/demo/ForwardToThePast/?exchange=binance&symbol=BTC%2FUSDT&int
 * сделать SPA, серверная часть будет предоставлять только API
 * написать тесты
 * поддержка интервала 1 неделя
+* показ на маленьких экранах
