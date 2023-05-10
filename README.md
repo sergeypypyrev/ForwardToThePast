@@ -23,8 +23,6 @@ npm start
 
 Приложение будет доступно по адресу http://localhost:3010
 
-После изменения EXTRA_INTERVALS необходимо удалить кэш-файл (путь кэш-файла хранится в CACHE_FILE).
-
 # Демо
 
 Рабочее демо запущено на http://pypyrev.com/demo/ForwardToThePast/
